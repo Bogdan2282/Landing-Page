@@ -1,0 +1,48 @@
+header{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    z-index: 3;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px 15px 80px;
+    
+}
+.logo-and-menu{
+    display: flex;
+    align-items: center;
+    gap: 74px;
+}
+.menu{
+    display: flex;
+    gap: 56px;
+}
+.acount-and-sign-in{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+.nav-link{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+    color: #36485c;
+}
+.sign-in-link{
+    display: flex;
+    gap: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+    color: #36485c;  
+}

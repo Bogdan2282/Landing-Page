@@ -1,0 +1,83 @@
+.website-explanation{
+  position: relative;
+  top:127px;
+  background: no-repeat bottom url(./../images/Gradient.png);
+  background-size: 100% 55%;
+}
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 24px;
+    h1{
+        font-family: "Inter", sans-serif;
+        text-align: center;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 112%;
+        color: #172026;
+    }
+    p{
+        font-family: "Inter", sans-serif;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #36485c;
+    }
+    #Try-for-free{
+        border-radius: 4px;
+        padding: 16px 32px;
+        width: 160px;
+        height: 56px;
+        background: #4328eb;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 133%;
+        text-align: center;
+        color: #fff;
+    }
+    #View-Pricing{
+        width: 147px;
+        height: 28px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 133%;
+        color: #4328eb;
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.section-middle{
+    position: relative;
+    width: 1150px;
+    height: 737px;
+    margin-left: auto;
+    margin-right: auto;
+    .web-img{
+        width: 957px;
+        height: 680px;
+        border-radius: 16px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        #web{
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-shadow: 0 56px 232px -56px rgba(0, 0, 0, 0.25);
+        }
+    }
+    #mobile{
+        position: absolute;
+        left: 879px;
+        bottom: 0;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        border-radius: 16px;
+    }
+}
