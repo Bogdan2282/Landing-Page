@@ -54,7 +54,7 @@ return gulp
 .pipe(changed('./docs/'))
 .pipe(plumber(plumberNotify('HTML')))
 .pipe(fileInclude(fileIncludeSetting))
-.pipe(webpHtml())
+// .pipe(webpHtml())
 // .pipe(htmlclean())
 .pipe(gulp.dest('./docs/'));
 
@@ -67,7 +67,7 @@ return gulp
 .pipe(plumber(plumberNotify('SCSS')))
 .pipe(autoprefixer())
 .pipe(sassGlob())
-.pipe(sass())
+.pipe(sass().on('error', sass.logError))
 // .pipe(csso())
 // .pipe(webpCss())
 .pipe(gulp.dest('./docs/css/'))
@@ -77,7 +77,7 @@ gulp.task('images:docs', function(){
     return gulp
     .src('./src/images/**/*')
     .pipe(changed('./docs/images/'))
-    .pipe(webp())
+    // .pipe(webp())
     .pipe(gulp.dest('./docs/images/'))
     .pipe(gulp.src('./src/images/**/*'))
     .pipe(changed('./docs/images/'))
