@@ -1,1 +1,1 @@
-# This project is not finalized yet, but on GitHub Pages you can see what's available so far.
+# This project is not finalized yet, but on GitHub Pages you can see what's available so far
