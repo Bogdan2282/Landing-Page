@@ -1,7 +1,6 @@
 {
-    "name": "gulp-html-scss",
+    "name": "landing-page",
     "version": "1.0.0",
-    "description": "new gulp website",
     "author": "Bogdan",
     "devDependencies": {
         "@babel/core": "^7.23.7",

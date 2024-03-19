@@ -1,4 +1,228 @@
-*{padding:0;margin:0;border:0}*,::after,::before{box-sizing:border-box}a:hover,a:link,a:visited{text-decoration:none}aside,footer,header,legend,main,nav,section{display:block}h1,h2,h3,h4,h5,h6,p{font-size:inherit;font-weight:inherit}ul,ul li{list-style:none}img{vertical-align:top}img,svg{max-width:100%;height:auto}address{font-style:normal}input,select,textarea{background-color:transparent}button,input,select,textarea{font-family:inherit;font-size:inherit;color:inherit}input::-ms-clear{display:none}button,input[type=submit]{display:inline-block;box-shadow:none;background-color:transparent;background:0 0;cursor:pointer}button:active,button:focus,input:active,input:focus{outline:0}button::-moz-focus-inner{padding:0;border:0}label{cursor:pointer}header{width:100%;background-color:#fff;position:fixed;box-shadow:0 4px 4px 0 rgba(0,0,0,.25);z-index:3}a{outline:0;text-decoration:none}.logo-and-menu,.nav{display:flex;align-items:center}.nav{justify-content:space-between;padding:15px 80px}.logo-and-menu{gap:74px}.acount-and-sign-in,.menu{display:flex;gap:56px}.acount-and-sign-in{align-items:center}.nav-link,.sign-in-link{font-family:"Inter",sans-serif;font-weight:500;font-size:1em;line-height:150%;color:#36485c}.sign-in-link{display:flex;gap:12px}.website-explanation{position:relative;top:127px;background:no-repeat bottom url(./../images/Gradient.png);background-size:100% 55%}.section-header{display:flex;flex-direction:column;align-content:center;gap:24px}.section-header h1,.section-header p{font-family:"Inter",sans-serif;text-align:center;font-weight:600;font-size:64px;line-height:112%;color:#172026}.section-header p{font-weight:400;font-size:18px;line-height:156%;color:#36485c}.section-header #Try-for-free,.section-header #View-Pricing{font-family:"Inter",sans-serif;font-weight:500;font-size:18px;line-height:133%}.section-header #Try-for-free{border-radius:4px;padding:16px 32px;width:160px;height:56px;background:#4328eb;text-align:center;color:#fff}.section-header #View-Pricing{width:147px;height:28px;color:#4328eb}.buttons{display:flex;justify-content:center;align-items:center;gap:40px;margin-bottom:60px}.section-middle{position:relative;width:1150px;height:737px;margin-left:auto;margin-right:auto}.section-middle #mobile,.section-middle .web-img{box-shadow:0 4px 4px 0 rgba(0,0,0,.25);border-radius:16px}.section-middle .web-img{width:957px;height:680px}.section-middle .web-img #web{position:absolute;top:0;left:0;box-shadow:0 56px 232px -56px rgba(0,0,0,.25)}.section-middle #mobile{position:absolute;left:879px;bottom:0}
-@supports (-webkit-appearance:none){
-.website-explanation{background:no-repeat bottom url(./../images/Gradient.webp)}
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  z-index: 3;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px 15px 80px;
+}
+
+.logo-and-menu {
+  display: flex;
+  align-items: center;
+  gap: 74px;
+}
+
+.menu {
+  display: flex;
+  gap: 56px;
+}
+
+.acount-and-sign-in {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 150%;
+  color: #36485c;
+}
+
+.sign-in-link {
+  display: flex;
+  gap: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 150%;
+  color: #36485c;
+}
+
+.website-explanation {
+  position: relative;
+  top: 127px;
+  background: no-repeat bottom url(./../images/Gradient.png);
+  background-size: 100% 55%;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 24px;
+}
+.section-header h1 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 112%;
+  color: #172026;
+}
+.section-header p {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #36485c;
+}
+.section-header #Try-for-free {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 160px;
+  height: 56px;
+  background: #4328eb;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: #fff;
+}
+.section-header #View-Pricing {
+  width: 147px;
+  height: 28px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #4328eb;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.section-middle {
+  position: relative;
+  width: 1150px;
+  height: 737px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-middle .web-img {
+  width: 957px;
+  height: 680px;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.section-middle .web-img #web {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 56px 232px -56px rgba(0, 0, 0, 0.25);
+}
+.section-middle #mobile {
+  position: absolute;
+  left: 879px;
+  bottom: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
 }

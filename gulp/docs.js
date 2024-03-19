@@ -55,7 +55,7 @@ return gulp
 .pipe(plumber(plumberNotify('HTML')))
 .pipe(fileInclude(fileIncludeSetting))
 .pipe(webpHtml())
-.pipe(htmlclean())
+// .pipe(htmlclean())
 .pipe(gulp.dest('./docs/'));
 
 });
@@ -65,14 +65,11 @@ return gulp
 .src('./src/scss/*.scss')
 .pipe(changed('./docs/css/'))
 .pipe(plumber(plumberNotify('SCSS')))
-//.pipe(sourceMaps.init())
 .pipe(autoprefixer())
 .pipe(sassGlob())
-//.pipe(grupMedia())
 .pipe(sass())
-.pipe(csso())
-.pipe(webpCss())
-//.pipe(sourceMaps.write())
+// .pipe(csso())
+// .pipe(webpCss())
 .pipe(gulp.dest('./docs/css/'))
 });
 
@@ -84,7 +81,6 @@ gulp.task('images:docs', function(){
     .pipe(gulp.dest('./docs/images/'))
     .pipe(gulp.src('./src/images/**/*'))
     .pipe(changed('./docs/images/'))
-    .pipe(imegemin({verbose: true}))
     .pipe(gulp.dest('./docs/images/'))
 });
 
