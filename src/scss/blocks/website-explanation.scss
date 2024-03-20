@@ -1,8 +1,6 @@
 .website-explanation{
-  position: relative;
-  top:127px;
   background: no-repeat bottom url(./../images/Gradient.png);
-  background-size: 100% 55%;
+  background-size: 100% 57%;
 }
 .section-header{
     display: flex;
@@ -80,4 +78,16 @@
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         border-radius: 16px;
     }
+}
+.companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 80px 80px 80px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: #fff;
+
 }
