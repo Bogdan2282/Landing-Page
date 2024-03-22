@@ -27,7 +27,7 @@
         line-height: 133%;
         color: #0085ff;
     }
-    h2{
+    h3{
         font-weight: 500;
         font-size: 42px;
         line-height: 138%;
@@ -123,7 +123,7 @@
         line-height: 133%;
         color: #00a424;
     }
-    h2{
+    h3{
         font-weight: 500;
         font-size: 42px;
         line-height: 138%;
@@ -182,7 +182,7 @@
 }
 .support-img{
     height: 517px;
-    box-shadow: 0 56px 232px -30px #81dc84;
+    box-shadow: 0 56px 232px -56px #81dc84;
 }
 
 .card-inquiries{
@@ -196,4 +196,105 @@
     width: 1280px;
     height: 628px;
     gap: 1.667vw;
+}
+.growth-monitoring-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 56px;
+    width: 43.611vw;
+    gap: 16px;
+    font-family: "Inter", sans-serif;
+    h4{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 133%;
+        color: #EB2891;
+    }
+    h3{
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 138%;
+        color: #172026;
+    }
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        color: #36485c;
+    }
+    svg{
+        background: #FDE7F3;
+        border-radius: 30px;
+        width: 28px;
+        height: 28px;
+        padding: 6px;
+        path{
+            stroke: #EB2891;
+        }  
+    }
+    li{
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 133%;
+        color: #36485c;
+    }
+    li:before{
+    content: url(./../images/tick.svg);
+    margin-right: 16px;
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        padding: 24px 0px;
+        width: 138px;
+        height: 76px;
+        gap: 12px;
+        margin-top: 16px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 133%;
+        color: #EB2891;
+    } 
+    .count{
+        width: 572px;
+        display: flex;
+        gap: 24px;
+        flex-wrap:wrap;
+        margin-top: 32px;
+        justify-content: start;
+        p{
+            width: 274px; 
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 133%;
+            color: #5f7896;
+        }
+        .numbers{
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 125%;
+            color: #172026;
+        }
+    }   
+}
+.growth-monitoring-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 43.611vw;
+    height: 100%;
+    background: #fde7f3;;
+    border-radius: 16px;
+}
+.monitoring-img{
+    box-shadow: 0 -56px 146px 4px rgba(246, 159, 206, 0.8);
+}
+.card-subscribers{
+    position: absolute;
+    left: 86px;
+    top: 254px;
 }

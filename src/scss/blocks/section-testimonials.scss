@@ -1,0 +1,46 @@
+.testimonials{
+    background: #f4f8fa;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 96px;
+    h2{
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 138%;
+        color: #172026;
+    }
+    p{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: #36485c;
+    }
+}
+.testimonials-slider{
+    height: 690px;
+    width: 100%;
+    background-color: #172026;
+    margin-top: 72px ;
+    margin-bottom:104px ;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(42, 41, 61);
+}
+
