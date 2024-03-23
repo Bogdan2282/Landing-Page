@@ -1,5 +1,5 @@
 .testimonials{
-    background: #f4f8fa;
+    background: #eef8fd;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -35,12 +35,52 @@
     margin-bottom:104px ;
 }
 .swiper{
+    height: 214px;
     width: 100%;
-    height: 100%;
+    margin-top: 16px;
+}
+.swiper-wrapper{
+   
+}
+.recall{
+    padding: 24px 24px 26px 24px;
+    border-radius: 16px;
+    width: 519px;
+    height: 214px;
+    background-color: rgb(255, 255, 255);
 }
 .swiper-slide {
-    width: 600px;
-    height: 300px;
-    background-color: rgb(42, 41, 61);
+  
+}
+
+.profile-name{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #172026;
+}
+.profile-position{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5f7896;
+}
+.information{
+    width: 319px;
+    margin-left: 16px;
+    margin-right: 24px;
+}
+.recall-header{
+    display: flex;
+    align-items: center;
+}
+.recall-main{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: #36485c;
 }
 

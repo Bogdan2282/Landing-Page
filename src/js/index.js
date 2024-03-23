@@ -6,20 +6,13 @@ import 'swiper/css/bundle';
 // init Swiper:
 const swiper = new Swiper('.swiper', {
   // Optional parameters
+  
   loop: true,
-  parallax: true,
-  speed: 1000,
+  parallax:true,
+  speed: 5000,
   touchRatio: 0.5,
-  keyboard: {
-    enable: true,
-  },
-  mousewheel: {
-    sensitivity: 1,
-  },
   slidesPerView: 3,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+  autoplay:{
+    delay: 0,
+  }
 });
